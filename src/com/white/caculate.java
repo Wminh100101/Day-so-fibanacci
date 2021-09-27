@@ -1,6 +1,17 @@
 package com.white;
 
 public class caculate {
+	public int cacutale(int n) {
+		if (n < 0) {
+			return -1;
+		} else {
+			if (n == 0 || n == 1) {
+				return n;
+			} else {
+				return cacutale(n - 1) + cacutale(n - 2);
+			}
+		}
+	}
 	// int n;
 	// int[] a;
 
@@ -17,15 +28,4 @@ public class caculate {
 	// }
 	// }
 	// }
-	public int cacutale(int n) {
-		if (n < 0) {
-			return -1;
-		} else {
-			if (n == 0 || n == 1) {
-				return n;
-			} else {
-				return cacutale(n - 1) + cacutale(n - 2);
-			}
-		}
-	}
 }
