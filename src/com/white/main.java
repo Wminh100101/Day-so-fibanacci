@@ -14,7 +14,7 @@ public class main {
 		// System.out.print(caculate.a[i] + " ");
 		// }
 		caculate caculate = new caculate();
-		for (int i = 1; i <= n; i++) {
+		for (int i = 0; i <= n; i++) {
 			System.out.print(caculate.cacutale(i) + " ");
 		}
 
